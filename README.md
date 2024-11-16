@@ -33,7 +33,8 @@ Enter or modify student data in the form fields.
 Click Save to add a new student to the mock database or Update to modify an existing student's data.
 Click Reset at any time to clear the form and return it to its initial state.
 
-Mock Database:
+Mock JsonDB Database:
+
 {
     "token": "-1935843913|3223940520357615501|-1935843909",
     "cmd": "PUT",
@@ -63,11 +64,12 @@ Enter an existing Roll No in the form.
 If the Roll No exists, its associated data will be loaded into the form fields, with the Update and Reset buttons enabled.
 Update any fields as needed.
 Click Update to save changes to the database.
+
+
 Resetting the Form:
 
-Click Reset at any time to clear the form and reset it to its initial state.
-Acknowledgments
-This project uses Bootstrap for styling and is inspired by the requirements of a student enrollment system to demonstrate basic form handling and CRUD operations in a web application.
+Click Reset at any time to clear the form and reset it to its initial state
 
-Acknowledgments
+Acknowledgments:
+
 This project uses Bootstrap for styling and is inspired by the requirements of a student enrollment system to demonstrate basic form handling and CRUD operations in a web application.
