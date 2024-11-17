@@ -164,12 +164,12 @@
             jQuery.ajaxSetup({ async: true });
 
             if (resultObj && resultObj.status === 400) {
-                // New entry
+                
                 $("#fullName, #class, #birthDate, #address, #enrollmentDate").prop("disabled", false);
                 $("#studentSave, #studentReset").prop("disabled", false);
                 $("#studentUpdate").prop("disabled", true);
             } else {
-                // Existing entry
+                
                 $("#rollNo").prop("disabled", true);
                 $("#fullName").val(resultObj.data.fullName).prop("disabled", false);
                 $("#class").val(resultObj.data.class).prop("disabled", false);
